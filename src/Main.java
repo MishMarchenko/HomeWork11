@@ -32,18 +32,20 @@ public class Main {
         }
         System.out.println();
 
-            ArrayList<Integer> array = new ArrayList<>();
-            array.add(1);
-            array.add(2);
-            array.add(3);
-            array.add(5);
-            array.add(4);
-            array.add(3);
-            array.add(2);
-            array.add(1);
-            array.add(2);
-            array.add(3);
-            array.add(5);
+        ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1,2,3,5,4,3,2,1,2,3,5));
+//            Нашел еще такой способ вводить сразу с значениями, но на всякий и наш прописал как на уроке делали)
+//            ArrayList<Integer> array = new ArrayList<>();
+//            array.add(1);
+//            array.add(2);
+//            array.add(3);
+//            array.add(5);
+//            array.add(4);
+//            array.add(3);
+//            array.add(2);
+//            array.add(1);
+//            array.add(2);
+//            array.add(3);
+//            array.add(5);
             System.out.println(counterCatch(array, 2));
     }
     public static int counterCatch(ArrayList<Integer> arrayList, int value){
